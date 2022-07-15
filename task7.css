@@ -1,0 +1,16 @@
+body{
+    background-color: #1c1f34;
+}
+header h1, .days ul, .monday ul, .tuesday ul, .wednesday ul{
+    color: white;
+}
+.days h3{
+    color: yellow;
+}
+.monday h3, .tuesday h3, .wednesday h3{
+    background-color:yellow;
+    color: black;
+}
+#red{
+    color: red;
+}
