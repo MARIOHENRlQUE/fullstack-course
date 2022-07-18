@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+}
+.divCont{
+    width: 70%;
+    margin: 0px auto 0px auto;
+}
+.divContent{
+    background-color:linen;
+    padding: 10px 30px 10px 30px;
+    height: 100%;
+    width: 90%;
+}
+h2{
+    font-size: 30px;
+}
+h4{
+    font-size: 15px;
+    color:cadetblue;
+}
