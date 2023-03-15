@@ -1,0 +1,10 @@
+//The system must register the spaceship name.
+//The system must register the spaceship type.
+//The system must register the max speed the spaceship can reach.
+//If the spaceship reaches the max velocity, it will combust. //
+//The spaceship will depart with 0 km/s.
+//The system must have a menu.
+//The system menu must have two options, the first to speed up and the second to stop the spaceship.
+//If the user chooses to stop the spaceship, a message must show in prompt informing the spaceship name, type, and the speed the spaceship stopped at.
+//If the user chooses to speed up, the prompt must ask how much they want to speed up. The value must be written, not replaced.
+//If the speed value entered exceeds the max value, the system must alert the user.
