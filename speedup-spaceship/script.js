@@ -1,10 +1,6 @@
 const spaceShip = {updateVelocity: function(velocity){
     this.velocity += velocity;
-    if(this.velocity  === velocity){
-        return 1;
-    }else{
-        return 0;
-    }
+    return this.velocity  === velocity ? 1 : 0;
 }};
 
 const inputDate = () => {
@@ -32,7 +28,7 @@ const showMenu = () => {
 
 }
 
-const validate = (validateValue) => {
+const validade = (validateValue) => {
     switch (validateValue){
         case "1":
             return 1;
