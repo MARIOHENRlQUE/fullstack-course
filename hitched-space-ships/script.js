@@ -16,14 +16,10 @@ const addingDockingPlatform = (filterArrWithMoreNineCrewFunc, findDockingPendenc
     showInScren(arrNameCrewDockingprocessDocking, filterArrWithMoreNineCrew, dockingPendence);
 }
 const filterArrWithMoreNineCrewFunc = (arr) => {
-    if(arr[1] > 9){
-        return arr;
-    }
+    return (arr[1] > 9) ? arr : 0;
 }
 const findDockingPendence = (arr) => {
-    if(arr[2] == false){
-        return arr;
-    }
+    return (arr[2] == false) ? arr : 0;
 }
 const showInScren = (arr, arrMoreNineCrew, arrPendence) => {
     alert(`We'll show all spaceships:\n`)
