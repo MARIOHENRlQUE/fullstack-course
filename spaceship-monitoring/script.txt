@@ -1,0 +1,7 @@
+ //The system should ask for the spaceship data.
+ //For every spaceship we should have a name and quantity of crews and know if the spaceship is battle or transport vessel.
+ //If the spaceship is a battle, the system should ask how many weapons the spaceship have.
+ //On the other hand, if the spaceship is a transporte, the system should ask how many accents it have.
+ //The spaceship should be initiated with velocity equal to 0.
+ //The system should be show a menu with three options; acelerate spaceship, change spaceship, print and exit;
+ //The system should only accelerate by 83% relative to the speed set by the user, becouse we have the decelerate rate.
